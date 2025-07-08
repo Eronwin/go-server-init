@@ -1,0 +1,3 @@
+app_name: "go-gin-project"
+server:
+  port: 8080
