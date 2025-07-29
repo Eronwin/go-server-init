@@ -53,5 +53,5 @@ jobs:
           context: .
           push: true
           tags: |
-            registry.cn-hangzhou.aliyuncs.com/your-namespace/go-gin-project:latest
-            registry.cn-hangzhou.aliyuncs.com/your-namespace/go-gin-project:${{ github.ref_name }}
+            registry.cn-hangzhou.aliyuncs.com/raiko/go-gin-project:latest
+            registry.cn-hangzhou.aliyuncs.com/raiko/go-gin-project:${{ github.ref_name }}
