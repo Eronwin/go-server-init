@@ -1,4 +1,4 @@
-# go-gin-project
+# go-server-init
 
 > 一个最简可运行、具备完整目录的 Gin REST API 示例。
 
@@ -16,6 +16,6 @@ curl http://localhost:8080/api/v1/ping # => {"message":"pong"}
 
 ## Docker
 ```bash
-$ docker build -t go-gin-project .
-$ docker run -p 8080:8080 go-gin-project
+$ docker build -t go-server-init .
+$ docker run -p 8080:8080 go-server-init
 ```
